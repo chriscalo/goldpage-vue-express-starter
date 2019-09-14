@@ -711,34 +711,34 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@brillout/autoload@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/autoload/-/autoload-0.5.1.tgz#e063095f501dd1b0c913c2bf07d073ef2e206dc8"
-  integrity sha512-3f+OQ895XY0Uwsmex9TMRGeRX9tITvE5nB25wAEXPGT1kPLTd+jDfeXOocAd8lL6+fRydTZXFWigzQk/GlAkpQ==
+"@brillout/autoload@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/autoload/-/autoload-0.5.2.tgz#d3b4b4f3eac3e7155a26f4b658b3c6470f3f2cdf"
+  integrity sha512-AGxUhPdhGHt3t/ixENbe57vOEj77Ecj2tAY/qmqFqrghQ7y1dLqDb4yztReWRGT1TXXaBTNVpRJkh2b057cTCg==
   dependencies:
     "@brillout/project-files" "^0.4.0"
     find-up "^4.0.0"
     reassert "^1.1.12"
 
-"@brillout/browser-config@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/browser-config/-/browser-config-0.5.1.tgz#04a534b99888693fa0825e00da0428bceed3d631"
-  integrity sha512-swIN+Zs56P0taHF1yV8kaTWfcscjX7lsMEEHLZl8Lj+P2bV70UBnIH2I2C3TkNbyyltX/MeKHfB4pDFuGN6N/A==
+"@brillout/browser-config@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/browser-config/-/browser-config-0.5.2.tgz#342cc50fed47b070cdf71e95b0884d3743f1300d"
+  integrity sha512-LhsGQ+2GPUMSJhxu5CbzwyqsJGA1y9arb7br1DlnF9gRO0cxkLY1qhDskcskq8v9mI1u2JaLhLNb9VPZdefb1A==
 
-"@brillout/cli-theme@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/cli-theme/-/cli-theme-0.5.1.tgz#efee4259d68f45159ae516b21586a9f730c3de46"
-  integrity sha512-e7Jb1l7biKSwxUHXvPVxSj8dnHpwo5yEVUOruoja6PlA4BPKU6Q8y7EYd572afJKYsZexjouVQAcgUBF/Dwy+w==
+"@brillout/cli-theme@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/cli-theme/-/cli-theme-0.5.2.tgz#c6f461ce00ffbcd41a3ce3b660093038f50f10dd"
+  integrity sha512-UYMNToQMRqtowMYjrJMDT0NauIFBgugDORGq4D9DcqNBFl5TukGh8GnLyLP51kscYjvABM855m+tSmYZOTJctQ==
   dependencies:
     "@brillout/relative-to-homedir" "^0.1.0"
     chalk "^2.4.2"
     ora "3.4.0"
     reassert "^1.1.12"
 
-"@brillout/file-sets@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/file-sets/-/file-sets-0.5.1.tgz#89923d8f5768b611d22aec8e6bab1bc273e94135"
-  integrity sha512-NZtZfmEv99TW2xln19E5fMHvI6DtURfhLOdj/MkU5DnYHEvrEajk/hYdmoFjqJaWNLlQDLI0iCrSaTtLiC+Yrg==
+"@brillout/file-sets@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/file-sets/-/file-sets-0.5.2.tgz#121e0a9cab62170541aef8142877c84118152368"
+  integrity sha512-8L6jeko42DR24AFcLIpIx70ALa2k9ktVN1eDldarbQuKGyhgrn+Q2m3W/syVVAyO14970oB6UZH8ovVBlG+EaA==
   dependencies:
     mkdirp "^0.5.1"
     reassert "^1.1.12"
@@ -799,20 +799,20 @@
   dependencies:
     "@brillout/format-text" "^0.1.3"
 
-"@brillout/reconfig@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/reconfig/-/reconfig-0.5.1.tgz#173527096cb4a89eec7b93aebd5f8a900cbbc93c"
-  integrity sha512-Wm8sDRUbDiPZkmT4rDLDKvVDPxvEiJtS7dz0M86uL2ycUB6yR258L/K2GxK5Ajoa09DNhoXOpd5QCbinRUQ26A==
+"@brillout/reconfig@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/reconfig/-/reconfig-0.5.2.tgz#2824c66928b8a2c48b81bb41ea32e8ef77ba4ff7"
+  integrity sha512-qM72Anjdm6QOIVa1TGstnpI5H/hE1lXv+wj+xCNkPjJ5KB4LE8oKD3puUCGdmrsRCEOhCfRVDs9b0V6/dtrliw==
 
 "@brillout/relative-to-homedir@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@brillout/relative-to-homedir/-/relative-to-homedir-0.1.0.tgz#57e1d64423688787d29f3066ba374175574c1048"
   integrity sha512-aN5b6YSKlpH3Age7ELDrCp5L/VxWN16dAQ+PliT+mRaLcSMxh8l9lrdMsThrdFn8TQbB6k/LSo+FdmQBlaavnA==
 
-"@brillout/repage@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/repage/-/repage-0.5.1.tgz#18af958e8aa91ce1f748fa34b3e0115dcc64c475"
-  integrity sha512-rxXQ2YpALL66Bek4Sc3U9DbojtHI/yfLA852b3eIe5vwUWkjWruDBovUewYDASYqxS57VaTACX8VAjrzC/YgyA==
+"@brillout/repage@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/repage/-/repage-0.5.2.tgz#440c764cea6dde85c1ecfe20f5e5e5030be9a02f"
+  integrity sha512-D4F1S1cfYAn3T0LokK5OM1+daRbAaNlXhEq9NJp3mqghkfhHvSTyDmXPIHvEvmC/F9h9EV+nJ4NmAv//NAARHQ==
   dependencies:
     "@brillout/html" "^0.3.1"
     "@brillout/parse-url" "^0.2.1"
@@ -832,97 +832,97 @@
   dependencies:
     "@brillout/reassert" "^0.1.1"
 
-"@brillout/webpack-config-mod@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@brillout/webpack-config-mod/-/webpack-config-mod-0.5.1.tgz#9bc2bde6f6a262ffa57586b2aac8b2bc34f149a8"
-  integrity sha512-PhAUZJERkFq1aUzN5WQG2fVUpoG0LkztgYno4INrgXxmolk2ajpOvhDBTnygVJxoodfHHzTGWPmp1Gl5w5w52A==
+"@brillout/webpack-config-mod@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@brillout/webpack-config-mod/-/webpack-config-mod-0.5.2.tgz#22199e145a9342be5dc4bff8d0ba6122f9371144"
+  integrity sha512-KsFMZGstSRwsZFTelg2CTDR7Nc4+OTKr6FZQxAG+B6mJ9lYHEchHHPnwOcX/qQ0hIpwCShB2saJztqfO2JWAWQ==
   dependencies:
     lodash.escaperegexp "^4.1.2"
     reassert "^1.1.12"
 
-"@goldpage/browser@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/browser/-/browser-0.5.1.tgz#7169bdf755db23d95aa0464f8b3554cc438f92f2"
-  integrity sha512-pkD+xoeFsJjOf8SpJgBVL32u1uSTFosLyG+waZWqZgJ0aIPOj+wxvSLoeCTYohhyeeJelFf7AQO1tD0jtpXRfw==
+"@goldpage/browser@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/browser/-/browser-0.5.2.tgz#aebc4c2505e0413d50960d599bd253c4ad710ce9"
+  integrity sha512-KMLR+OB97aPM1XUCDrY43ucpmZx0USHNmufVVVlVyFgnitj3cttPLc0fZ5DZ+WKvyjsZYxQsn1/nTlKeNF5EGw==
   dependencies:
-    "@brillout/browser-config" "0.5.1"
-    "@brillout/reconfig" "0.5.1"
-    "@brillout/repage" "0.5.1"
+    "@brillout/browser-config" "0.5.2"
+    "@brillout/reconfig" "0.5.2"
+    "@brillout/repage" "0.5.2"
 
-"@goldpage/core@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/core/-/core-0.5.1.tgz#b3c3c11ff37baba01decefea2c1507d03cf0d1c0"
-  integrity sha512-W006idzWaEuZdoKnDqtTBfWB4iVtmSLpX25Ll0mjpAvkH/8eCyizSHb5ajGcZ+o9K8n3fZWsEv5/ViGat+mTxQ==
+"@goldpage/core@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/core/-/core-0.5.2.tgz#f438dad5d554a473a03be6e8e8be28cbc910352b"
+  integrity sha512-iLG4RPh6x+zwaW+5y6t5mLMKbC1OARKcfLCnBkYv86jWXaFpiqi+pcT26Gk1VrtePOBXWpbHvGj+/ROG37n4eg==
   dependencies:
-    "@brillout/browser-config" "0.5.1"
+    "@brillout/browser-config" "0.5.2"
     "@brillout/reassert" "^0.1.1"
-    "@brillout/reconfig" "0.5.1"
-    "@brillout/repage" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
+    "@brillout/repage" "0.5.2"
     reassert "^1.1.12"
 
-"@goldpage/express@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/express/-/express-0.5.1.tgz#f22d973ed49a2f57c14ef012bf6f0e3626409499"
-  integrity sha512-q4h2Qp5WN0QmxALonDiftkx2TYipdBvPwGs6AwDK+O6qLbdtctyvmSTHTsh/ky3fcZLZ0/QdfJsnBBokg70zGA==
+"@goldpage/express@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/express/-/express-0.5.2.tgz#8fb9e4e0f036a387f4cd6d5d37c702907a4ed5c1"
+  integrity sha512-WqnXa++LOi4CKWEzDdaKjpXcNE1U+t+3MWJd1njkuJdRVIiyKqqdXr+u2G0pQ0auwRW/Bu37PxT8BGDf0ShB/A==
   dependencies:
     "@brillout/reassert" "^0.1.0"
-    "@brillout/reconfig" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
     "@universal-adapter/express" "^0.4.0"
 
-"@goldpage/html@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/html/-/html-0.5.1.tgz#50355aced356ac6b4430735678c5fd2e7aa9b0f3"
-  integrity sha512-2b91qDodjBM40O1/exXx6BDTfhxhcSlcwholcSWXG0uMVEHD1gQGJB0+8wIlZLndILR1KoQKFCsIvW6j3NjqTA==
+"@goldpage/html@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/html/-/html-0.5.2.tgz#e731712497b2eb63644b173f2ababd09e640006a"
+  integrity sha512-ebTDz724esh/ClPVG5KRegG07mf8u6Y//A9wlEMFfCAfKqQZBKDnAVl7YBb6DPlxHpR9UoldECmdbqUnBWKhig==
   dependencies:
-    "@brillout/browser-config" "0.5.1"
+    "@brillout/browser-config" "0.5.2"
     "@brillout/html" "^0.3.1"
     "@brillout/reassert" "0.0.1"
-    "@brillout/reconfig" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
 
-"@goldpage/path-to-regexp@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/path-to-regexp/-/path-to-regexp-0.5.1.tgz#8be9843b2cea21f78234dd9636f6a9aac93ce2ef"
-  integrity sha512-pTMpq6S82YEndtamS+zC+wwedrJPzVlfoSX+iZhEqFRmgzYSC0bVOIlyABQvM+x3QVqgUtwa9F+MCG3rxhJexA==
+"@goldpage/path-to-regexp@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/path-to-regexp/-/path-to-regexp-0.5.2.tgz#4d6ecc441feafb80c143d36ad12866a7cc3d1fdd"
+  integrity sha512-n1LlzN6YoCsO5JlJzcX7dHcVti+VHDMkaJ322XxrXAAtm4gEWIcXszhvqXz9hPe3Epp1hcKTBqQh9kc2Go7Pdw==
   dependencies:
     "@brillout/path-to-regexp" "^0.1.2"
     "@brillout/reassert" "^0.1.1"
-    "@brillout/reconfig" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
 
-"@goldpage/server-universal-middleware@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/server-universal-middleware/-/server-universal-middleware-0.5.1.tgz#0c39c78d0df4171a5bcf5a3bf71c113f9c80f4da"
-  integrity sha512-PxsQom4Icx24wMdFuh/vVEEYrVaLSyEkjwvubqoEyqniAbCnO40XgrFu/4JwcoYk9yO6BKlMOOrIJr09vyfzTQ==
+"@goldpage/server-universal-middleware@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/server-universal-middleware/-/server-universal-middleware-0.5.2.tgz#1ea2fab228949ccb5de70e2b793edf633382a797"
+  integrity sha512-j3FDYtrs5+6KJBSBwsPmz6kug1tZkOA+ahklGBYcyf3YGn9nEyD5eJuyKWiT/76H+83zFTdb0QELdYQrktlskw==
   dependencies:
     "@brillout/parse-url" "^0.2.1"
-    "@brillout/reconfig" "0.5.1"
-    "@brillout/repage" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
+    "@brillout/repage" "0.5.2"
     fs-extra "^7.0.1"
     mimos "^4.0.0"
     reassert "^1.1.12"
 
-"@goldpage/vue@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/vue/-/vue-0.5.1.tgz#65ab41f461dd5915cfda3fd68322596fcc852e2c"
-  integrity sha512-enwBlM0enjqDvoD8iNwJHlJMBcMies0zE8N1AvhC86wh8t80bciooBaMLDMK3StGAXjIbZ3s+LyrNvmZDeuPGg==
+"@goldpage/vue@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/vue/-/vue-0.5.2.tgz#0282fdd1e63784481ac523b658ca14117336eeab"
+  integrity sha512-B1xjpzP7Hd01i4HIytXcD1/FatrPahyztY6aH0sFf9Ky/gGHx5sM2MAoIyLT+RTygKF+/EDRhwYFlRhsleMztA==
   dependencies:
-    "@brillout/reconfig" "0.5.1"
-    "@goldpage/html" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
+    "@goldpage/html" "0.5.2"
 
-"@goldpage/webpack@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@goldpage/webpack/-/webpack-0.5.1.tgz#b577859fec9892344f6fa4c3b46f2a70671d6942"
-  integrity sha512-o+prV4enKsNKPLHHnHLMcbKCISk05ldV7uZabAhAckU5lodc1xeK7qq6hcqFQeuQ+hqU9MaoyElN2scQabU8+Q==
+"@goldpage/webpack@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@goldpage/webpack/-/webpack-0.5.2.tgz#bf2185d3dab2a98fc2b8ca284664c889255b2f3e"
+  integrity sha512-zko825bG+hkgx2NqFqXxE5wj6hrjPSv0b6Qqzrk8eqRIqVAA6Xjsn5EMt9B5EaLyK7p2uclLbRgOKUiB7D8w+w==
   dependencies:
-    "@brillout/reconfig" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
     reassert "^1.1.12"
-    webpack-ssr "0.5.1"
+    webpack-ssr "0.5.2"
 
-"@rebuild/build@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rebuild/build/-/build-0.5.1.tgz#0954ee8e4a49b95cd6e8f156f4092869eeae50b6"
-  integrity sha512-xnXPV7+QK0WT37n4/zq0GbBcy6KmCjwE7SoymPjtP/AeI5EvuSjRBFhHF0ncq+FSzgTJK965bYSMYnBqd9ZeJw==
+"@rebuild/build@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@rebuild/build/-/build-0.5.2.tgz#b370106e2860e3310219493cc22e265ebdd467e4"
+  integrity sha512-mzrVQIRp8C+bHsfi2uwUuX1aXKlC0zaYasCJoxunSznrIFsQmlQw0Pgfi43TYUEvHER+dksfThzuU084aM7Gww==
   dependencies:
-    "@brillout/cli-theme" "0.5.1"
+    "@brillout/cli-theme" "0.5.2"
     "@brillout/format-text" "^0.1.0"
     "@brillout/require-gold" "^0.1.1"
     bluebird "^3.5.4"
@@ -932,10 +932,10 @@
     reassert "^1.1.12"
     webpack "^4.36.1"
 
-"@rebuild/config@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rebuild/config/-/config-0.5.1.tgz#1e7412f977ff525be66e5ae066449923135c0b42"
-  integrity sha512-bLI8YetN+VbqNkp0x5niZjrMurIwx3xz8ijJEo8ayEkEhpNvbOovFQaHsUYuSjcm0VGPhZI/qfYaFB0JfwuDig==
+"@rebuild/config@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@rebuild/config/-/config-0.5.2.tgz#6bcf9f36508d17c860a21ad28be0bd83c2452175"
+  integrity sha512-u+kBBMABhnDhfLQ9MZ0EFKfgbXhqBmArCYlyrnsAq7HmN8zJj+/1nXkRbvhAqiWft4eeel3kenhqiItKPDnGKQ==
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.4.3"
@@ -956,24 +956,24 @@
     style-loader "^0.23.1"
     webpack "^4.36.1"
 
-"@rebuild/iso@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rebuild/iso/-/iso-0.5.1.tgz#afc64e14232335c3e65a226349e2077c88a923ab"
-  integrity sha512-dIJR7HCex3lLq/IwkCG0Z6fXANSuZnhR1eDgimI2te0f6+5aP12OvUobnFyBwmkI7PscCCpCFPk8OZTgYQ8F+Q==
+"@rebuild/iso@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@rebuild/iso/-/iso-0.5.2.tgz#5e006585a10cce5356d8c4e3211257944bf76850"
+  integrity sha512-3cWtBlrGqBbBE0bbFgEjv+MHm6NRHP93uysI4y3mjuZ9+PvjXOrB8dUjHg9QbqWxpPXe3GqJNBIB1O1tMI/5rQ==
   dependencies:
-    "@rebuild/build" "0.5.1"
-    "@rebuild/serve" "0.5.1"
+    "@rebuild/build" "0.5.2"
+    "@rebuild/serve" "0.5.2"
     chalk "^2.4.2"
     deep-equal "^1.0.1"
     reassert "^1.1.12"
 
-"@rebuild/serve@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rebuild/serve/-/serve-0.5.1.tgz#68576bdba8eda1c69661242eddc91c5b717fdc3c"
-  integrity sha512-QYZ207YZ2LRjGJ+JXFw+dErj4A2ZEfV9j6pC2xM6/Sf6N4/2130ggmdPRwXVhb0nUaVU7B6pEJ3yZCkcWKW7jA==
+"@rebuild/serve@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@rebuild/serve/-/serve-0.5.2.tgz#5f68870c72ecc343013e7cd85a09d101f6359f63"
+  integrity sha512-9mLCdwpqiCYMaHyPXhorU4MLKBGfLEJascLBonNlNsLDAZDXO+dGrOzhbGBdGuMjyE7YrjGmMUdVPcW0lZqWVA==
   dependencies:
-    "@brillout/cli-theme" "0.5.1"
-    "@rebuild/build" "0.5.1"
+    "@brillout/cli-theme" "0.5.2"
+    "@rebuild/build" "0.5.2"
     chokidar "^2.1.5"
     parent-module "^1.0.1"
     reassert "^1.1.12"
@@ -2033,9 +2033,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.247:
-  version "1.3.255"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.255.tgz#9f4b4f9ffd559dd7a81fef962186fc918d118b66"
-  integrity sha512-SZ6NlaNw3h4WR5kA1BK8XltdJCax02P+lW+z78RYoLDqmpyYuDQ5bS+/O6MCJ/j761qoZIFox2qYYt+UwqGA5w==
+  version "1.3.258"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.258.tgz#829b03be37424099b91aefb6815e8801bf30b509"
+  integrity sha512-rkPYrgFU7k/8ngjHYvzOZ44OQQ1GeIRIQnhGv00RkSlQXEnJKsGonQppbEEWHuuxZegpMao+WZmYraWQJQJMMg==
 
 elliptic@^6.0.0:
   version "6.5.1"
@@ -2429,21 +2429,21 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-goldpage@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/goldpage/-/goldpage-0.5.1.tgz#eafb7398ba29de03416a2bc001b9e0314da5da38"
-  integrity sha512-b6J8cIRN62W3LjhS40/v+a7JJ8jO8R69XT1WRo+eJdrlfClhitgc8VB33iYyL2LVs6TYl4ezpx1xEkQYyhFohQ==
+goldpage@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/goldpage/-/goldpage-0.5.2.tgz#39b6e8f6ab6cf39e10b5a4ec1a6a447d8b35d77f"
+  integrity sha512-Gdn7rPxpHzQg+yJm5Sk80MAEy1tEKsY8y/MP6LCz0JwQnIhPvsNdx34vAZnkV4j7tpfAcjjdvemfgyx6NQTBIw==
   dependencies:
-    "@brillout/autoload" "0.5.1"
-    "@brillout/cli-theme" "0.5.1"
+    "@brillout/autoload" "0.5.2"
+    "@brillout/cli-theme" "0.5.2"
     "@brillout/project-files" "^0.4.0"
     "@brillout/reassert" "^0.1.1"
-    "@brillout/reconfig" "0.5.1"
-    "@goldpage/browser" "0.5.1"
-    "@goldpage/core" "0.5.1"
-    "@goldpage/path-to-regexp" "0.5.1"
-    "@goldpage/server-universal-middleware" "0.5.1"
-    "@goldpage/webpack" "0.5.1"
+    "@brillout/reconfig" "0.5.2"
+    "@goldpage/browser" "0.5.2"
+    "@goldpage/core" "0.5.2"
+    "@goldpage/path-to-regexp" "0.5.2"
+    "@goldpage/server-universal-middleware" "0.5.2"
+    "@goldpage/webpack" "0.5.2"
     source-map-support "^0.5.12"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
@@ -3208,9 +3208,9 @@ minipass@^2.2.1, minipass@^2.3.5:
     yallist "^3.0.0"
 
 minizlib@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.1.tgz#dd27ea6136243c7c880684e8672bb3a45fd9b614"
-  integrity sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.2.tgz#6f0ccc82fa53e1bf2ff145f220d2da9fa6e3a166"
+  integrity sha512-hR3At21uSrsjjDTWrbu0IMLTpnkpv8IIMFDFaoz43Tmu4LkmAXfH44vNNzpTnf+OAQQCHrb91y/wc2J4x5XgSQ==
   dependencies:
     minipass "^2.2.1"
 
@@ -3983,9 +3983,9 @@ regexp.prototype.flags@^1.2.0:
     define-properties "^1.1.2"
 
 regexpu-core@^4.5.4:
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-4.5.5.tgz#aaffe61c2af58269b3e516b61a73790376326411"
-  integrity sha512-FpI67+ky9J+cDizQUJlIlNZFKual/lUkFr1AG6zOCpwZ9cLrg8UUVakyUQJD7fCDIe9Z2nwTQJNPyonatNmDFQ==
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/regexpu-core/-/regexpu-core-4.6.0.tgz#2037c18b327cfce8a6fea2a4ec441f2432afb8b6"
+  integrity sha512-YlVaefl8P5BnFYOITTNzDvan1ulLOiXJzCNZxduTIosN17b87h3bvG9yHMoHaRuo88H4mQ06Aodj5VtYGGGiTg==
   dependencies:
     regenerate "^1.4.0"
     regenerate-unicode-properties "^8.1.0"
@@ -4766,29 +4766,29 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack-ssr@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/webpack-ssr/-/webpack-ssr-0.5.1.tgz#801f74fc28b28779e3803ac76c1ab9205b339279"
-  integrity sha512-q3iOqWbhM5XLweF0JGYGbnAl8GqNcRMJlbMpiwStVV8BrrwOWT0DMkjFNOcmD2QJdX792Al6A0mKffzUa3iwOw==
+webpack-ssr@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/webpack-ssr/-/webpack-ssr-0.5.2.tgz#38dd7b6bcf6e7515007fc62bb6887a603b7d83b5"
+  integrity sha512-UkITRL3LQjM+ZQp1t1Jc69GmSKwOOfCjbks708VLI1atC71PXaLYM0tAxh1p7v1VOLaktCIvG1/peLNjh85stw==
   dependencies:
-    "@brillout/cli-theme" "0.5.1"
-    "@brillout/file-sets" "0.5.1"
+    "@brillout/cli-theme" "0.5.2"
+    "@brillout/file-sets" "0.5.2"
     "@brillout/project-files" "^0.4.0"
     "@brillout/require-gold" "^0.1.1"
-    "@brillout/webpack-config-mod" "0.5.1"
-    "@rebuild/build" "0.5.1"
-    "@rebuild/config" "0.5.1"
-    "@rebuild/iso" "0.5.1"
-    "@rebuild/serve" "0.5.1"
+    "@brillout/webpack-config-mod" "0.5.2"
+    "@rebuild/build" "0.5.2"
+    "@rebuild/config" "0.5.2"
+    "@rebuild/iso" "0.5.2"
+    "@rebuild/serve" "0.5.2"
     chokidar "^2.1.5"
     fs-extra "^7.0.1"
     mkdirp "^0.5.1"
     reassert "^1.1.12"
 
 webpack@^4.36.1:
-  version "4.39.3"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.39.3.tgz#a02179d1032156b713b6ec2da7e0df9d037def50"
-  integrity sha512-BXSI9M211JyCVc3JxHWDpze85CvjC842EvpRsVTc/d15YJGlox7GIDd38kJgWrb3ZluyvIjgenbLDMBQPDcxYQ==
+  version "4.40.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.40.2.tgz#d21433d250f900bf0facbabe8f50d585b2dc30a7"
+  integrity sha512-5nIvteTDCUws2DVvP9Qe+JPla7kWPPIDFZv55To7IycHWZ+Z5qBdaBYPyuXWdhggTufZkQwfIK+5rKQTVovm2A==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"

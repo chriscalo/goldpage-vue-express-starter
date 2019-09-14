@@ -1,8 +1,11 @@
 <template>
   <div>
-    Hello {{isReversed?nameReversed:name}}, welcome to <code>Goldpage</code>.
+    <a href="../">back</a>
     <br/>
-    <button v-on:click="toggleReverse">Reverse name</button>
+    Hello, {{ isReversed ? nameReversed : name }},
+    welcome to <code>Goldpage</code>.
+    <br/>
+    <button @click="toggleReverse">Reverse name</button>
   </div>
 </template>
 
@@ -25,7 +28,7 @@ export default {
 </script>
 
 <style scoped>
-code {
-  color: gold;
-}
+  code {
+    color: gold;
+  }
 </style>

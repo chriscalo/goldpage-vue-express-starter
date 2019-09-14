@@ -1,23 +1,30 @@
-import hello from './hello.vue';
+import name from './:name.vue';
+import util from 'util';
 
 export default {
   route: '/hello/:name',
   addInitialProps,
-  view: hello,
+  view: name,
   title,
   renderToHtml: true,
 };
 
-async function addInitialProps({name}) {
+async function addInitialProps(context) {
+  const { name } = context;
+  
+  console.log(context.constructor.name);
+  
   // We simulate a network request delay
   await sleep(0.5);
 
   const nameReversed = name.split('').reverse().join('');
-  return {nameReversed};
+  return {
+    nameReversed,
+  };
 }
 
 function title({name}) {
-  return 'Hi '+name;
+  return `Hi, ${name}`;
 }
 
 function sleep(seconds) {

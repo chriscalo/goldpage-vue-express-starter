@@ -9,11 +9,11 @@
     "start": "export NODE_ENV='production' && node ./.build/nodejs/server"
   },
   "dependencies": {
-    "@goldpage/express": "0.5.1",
-    "@goldpage/vue": "0.5.1",
+    "@goldpage/express": "0.5.2",
+    "@goldpage/vue": "0.5.2",
     "express": "^4.17.1",
     "express-start": "^0.1.4",
-    "goldpage": "0.5.1",
+    "goldpage": "0.5.2",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-server-renderer": "^2.6.10",

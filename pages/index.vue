@@ -11,7 +11,9 @@
 
 <template>
   <div>
-    <a href="/hello/jon">/hello/jon</a>
+    <a href="/hello/chris">/hello/chris</a>
+    <br/>
+    <a href="/foo">foo</a>
     <br/>
     {{ time }}
   </div>
