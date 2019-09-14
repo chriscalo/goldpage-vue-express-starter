@@ -11,6 +11,7 @@
   "dependencies": {
     "@goldpage/express": "0.5.2",
     "@goldpage/vue": "0.5.2",
+    "caller": "^1.0.1",
     "express": "^4.17.1",
     "express-start": "^0.1.4",
     "goldpage": "0.5.2",

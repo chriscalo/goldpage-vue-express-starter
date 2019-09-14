@@ -1,7 +1,9 @@
+import path from 'path';
 import index from './index.vue';
+import { route } from "../util";
 
 export default {
-  route: '/',
+  route: route(__filename),
   view: index,
   addInitialProps() {
     return {
