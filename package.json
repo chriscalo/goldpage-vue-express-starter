@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "express-start": "^0.1.4",
     "goldpage": "0.5.2",
+    "postinstall-postinstall": "^2.0.0",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-server-renderer": "^2.6.10",
