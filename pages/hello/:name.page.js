@@ -1,5 +1,5 @@
 import name from './:name.vue';
-import { route } from "../../util";
+import { route } from "~/util";
 
 export default {
   route: route(__filename),
