@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       isReversed: false,
-      bundler: "Parcel"
+      bundler: "Webpack"
     };
   },
   methods: {
