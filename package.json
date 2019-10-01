@@ -1,7 +1,4 @@
 {
-  "name": "goldpage-vue-express-starter",
-  "private": true,
-  "version": "0.5.1",
   "scripts": {
     "dev": "goldpage dev ./server.js",
     "build": "goldpage build ./server.js",
