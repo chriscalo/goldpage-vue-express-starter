@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "dev": "goldpage dev ./server.js",
-    "build": "goldpage build ./server.js",
+    "dev": "goldpage dev & node ./server.js",
+    "build": "goldpage build",
     "prod": "npm run build && npm run start",
-    "start": "export NODE_ENV='production' && node ./.build/nodejs/server",
+    "start": "export NODE_ENV='production' && node ./server.js",
     "postinstall": "link-module-alias"
   },
   "dependencies": {
