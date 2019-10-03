@@ -1,10 +1,10 @@
 {
   "scripts": {
     "postinstall": "link-module-alias",
-    "dev": "goldpage dev & nodemon -r esm ./server.js",
+    "dev": "goldpage dev & nodemon -r esm ./server/index.js",
     "build": "goldpage build",
     "prod": "npm run build && npm run start",
-    "start": "NODE_ENV='production' node -r esm ./server.js"
+    "start": "NODE_ENV='production' node -r esm ./server/index.js"
   },
   "_moduleAliases": {
     "~": "."
