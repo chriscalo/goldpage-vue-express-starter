@@ -1,4 +1,4 @@
-import index from './index.vue';
+import index from "./index.vue";
 import { route } from "~/util";
 
 export default {

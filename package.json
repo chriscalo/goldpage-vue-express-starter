@@ -3,8 +3,11 @@
     "dev": "goldpage dev & node ./server.js",
     "build": "goldpage build",
     "prod": "npm run build && npm run start",
-    "start": "export NODE_ENV='production' && node ./server.js",
+    "start": "NODE_ENV='production' node ./server.js",
     "postinstall": "link-module-alias"
+  },
+  "_moduleAliases": {
+    "~": "."
   },
   "dependencies": {
     "@goldpage/express": "0.5.3",
@@ -19,8 +22,5 @@
     "vue-loader": "^15.7.0",
     "vue-server-renderer": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
-  },
-  "_moduleAliases": {
-    "~": "."
   }
 }

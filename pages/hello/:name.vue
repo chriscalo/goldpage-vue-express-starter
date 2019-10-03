@@ -12,11 +12,10 @@
 <script>
 import Vue from "vue";
 export default {
-  props: ['name', 'nameReversed'],
+  props: ["name", "nameReversed"],
   data() {
     return {
       isReversed: false,
-      bundler: "Webpack"
     };
   },
   methods: {

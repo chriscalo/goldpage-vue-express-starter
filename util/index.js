@@ -12,7 +12,5 @@ export function route(filename) {
     // fix double slashes
     .replace("//", "/");
   
-  console.log(`route = ${route}`);
-  
   return route;
 };
