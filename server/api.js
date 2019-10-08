@@ -17,6 +17,7 @@ server.all("/wildcard/*" , async (req, res) => {
     method: req.method,
     body: req.body,
     headers: req.headers,
+    requestPropsFromBrowserCall: true,
   });
   res.status(statusCode);
   res.type(contentType);
