@@ -8,10 +8,8 @@
   export default {
     components,
     props: {
-      time: {
-        type: Date,
-        default: "default",
-      },
+      time: Date,
+      greeting: String,
     },
   };
 </script>
@@ -19,7 +17,6 @@
 <template>
   <div>
     <Navigation/>
-    Time from server when loaded: <br/>
-    {{ time }}
+    {{ greeting }} at {{ time }}
   </div>
 </template>
