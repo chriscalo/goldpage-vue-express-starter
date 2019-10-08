@@ -735,6 +735,14 @@
     ora "3.4.0"
     reassert "^1.1.12"
 
+"@brillout/fetch@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@brillout/fetch/-/fetch-0.1.2.tgz#71bccf9476a04fa58ae9721683a9849fcddd385b"
+  integrity sha512-epUz64Rqv/0vL5y2LEF0Mv3/MR4OtaAXwWdTYb4W5RfYh5FT5E5iUHuW5WRMWuL+nZX9RNcGTFwtK1wXbMUveA==
+  dependencies:
+    node-fetch "^1.7.3"
+    reassert "^1.1.16"
+
 "@brillout/file-sets@0.5.3":
   version "0.5.3"
   resolved "https://registry.npmjs.org/@brillout/file-sets/-/file-sets-0.5.3.tgz#13b0006f1d461010e30dcab87a1a3a3aab677a9e"
@@ -2089,6 +2097,13 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  integrity sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  dependencies:
+    iconv-lite "~0.4.13"
+
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
@@ -2254,6 +2269,13 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+ez-file@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/ez-file/-/ez-file-0.1.2.tgz#2b1b926fbfa3229621093808bc3629f5ac5aec46"
+  integrity sha512-fQZtOuNS3KsBuEtEmCLOeAoYkfsXUVuNnlSQ0kmUfscJe2ZnX+Im77HQyC8ZIe/wxdxZYf9rJXFj6Ev9ubSzQg==
+  dependencies:
+    caller "^1.0.1"
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -2612,7 +2634,7 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-iconv-lite@0.4.24, iconv-lite@^0.4.4:
+iconv-lite@0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -2850,6 +2872,11 @@ is-regex@^1.0.4:
   dependencies:
     has "^1.0.1"
 
+is-stream@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+  integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+
 is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
@@ -2911,6 +2938,13 @@ json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
+
+json-s@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/json-s/-/json-s-0.1.0.tgz#d0854713bfb1fe4b7d8ce7bf246e2ad4ba42117d"
+  integrity sha512-A2rvaJm4ngAKQ0GkQTzG3hJl/MJmCeCuPc2YnLua+CuIjc+O2RbvsU0OI5brqhqw/ceI/2FLsnFtiDZeIcQj8w==
+  dependencies:
+    reassert "^1.1.19"
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
@@ -3353,6 +3387,14 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+node-fetch@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -3977,7 +4019,7 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reassert@^1.1.12, reassert@^1.1.14:
+reassert@^1.1.12, reassert@^1.1.14, reassert@^1.1.16, reassert@^1.1.19:
   version "1.1.21"
   resolved "https://registry.yarnpkg.com/reassert/-/reassert-1.1.21.tgz#0e61cde7d2dde876d301342153cd9b1c7459649f"
   integrity sha512-Ff2/AaIE5LDTrsEBUDKFb65klJki9xibTKi7loj9bGxBrQBb4BubgvJLEyKRlzrr4SFmg0QzfdcTojU9NHn0Zw==
@@ -4881,6 +4923,17 @@ wide-align@^1.1.0:
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+wildcard-api@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/wildcard-api/-/wildcard-api-0.5.3.tgz#f3b1f206a08948b4b77e5bd7077570ba7dbf9392"
+  integrity sha512-Hm6RKtuosVCQtNLoOl3ODO0tCtFFQUNS9f1H1KmhpwXGWC525c6WwdAsgQtCETq33OQNNazvyogTy1Bhjf7IxQ==
+  dependencies:
+    "@brillout/fetch" "^0.1.2"
+    "@brillout/reassert" "^0.1.0"
+    "@brillout/url-props" "^0.1.1"
+    chalk "^2.4.2"
+    json-s "^0.1.0"
 
 worker-farm@^1.7.0:
   version "1.7.0"

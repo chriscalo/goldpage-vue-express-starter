@@ -16,12 +16,14 @@
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-start": "^0.1.4",
+    "ez-file": "^0.1.2",
     "goldpage": "0.5.3",
     "link-module-alias": "^1.2.0",
     "postinstall-postinstall": "^2.0.0",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-server-renderer": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "wildcard-api": "^0.5.3"
   }
 }
