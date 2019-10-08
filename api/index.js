@@ -1,6 +1,6 @@
 import { endpoints } from "wildcard-api";
 import { file } from "ez-file";
 
-endpoints.greet = function greet() {
-  return file("./greeting.txt");
+endpoints.greet = async function greet() {
+  return await file("./greeting.txt");
 };
