@@ -1,8 +1,8 @@
-const express = require("express");
-const { getApiResponse } = require("wildcard-api"); // npm install wildcard-api
+import express from "express";
+import { getApiResponse } from "wildcard-api"; // npm install wildcard-api
 
 // Ensure the API gets initiated
-require("~/api");
+import("~/api");
 
 const server = express();
 export default server;
