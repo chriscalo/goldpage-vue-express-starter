@@ -25,5 +25,8 @@
     "vue-server-renderer": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
     "wildcard-api": "^0.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }

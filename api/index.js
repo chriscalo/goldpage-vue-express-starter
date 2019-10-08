@@ -7,6 +7,6 @@ endpoints.greet = async function greet() {
   // `getApiResponse()`.
   //
   // [wildcard-docs]: https://github.com/reframejs/wildcard-api
-  console.log(this);
+  console.log((typeof window==='undefined'?'server':'browser')+'-side `requestProps`:', this);
   return await file("./greeting.txt");
 };
