@@ -1,22 +1,14 @@
 import { endpoints } from "wildcard-api/client";
 import index from "./index.vue";
-import { route } from "~/util";
+import { fileroute } from "~/util/goldpage";
 
 export default {
-  route: route(__filename),
+  route: fileroute(__filename),
   view: index,
-  async addInitialProps({isNodejs, headers}) {
-    let {greet} = endpoints;
-    if( isNodejs ) {
-      // When we use the Wildcard client in Node.js
-      // we have to use `bind` and manually provide the `requestProps`.
-      const requestProps = {headers, requestPropsFromSSR: true};
-      greet = greet.bind(requestProps);
-    }
-
+  async addInitialProps(context) {
     return {
       time: new Date(),
-      greeting: await greet(),
+      greeting: await endpoints.greet.call(context),
     };
   },
   renderToHtml: true,

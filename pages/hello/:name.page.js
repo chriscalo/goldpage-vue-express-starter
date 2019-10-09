@@ -1,8 +1,8 @@
 import name from "./:name.vue";
-import { route } from "~/util";
+import { fileroute } from "~/util/goldpage";
 
 export default {
-  route: route(__filename),
+  route: fileroute(__filename),
   addInitialProps,
   view: name,
   title,

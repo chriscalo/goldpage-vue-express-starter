@@ -1,8 +1,8 @@
 import index from "./index.vue";
-import { route } from "~/util";
+import { fileroute } from "~/util/goldpage";
 
 export default {
-  route: route(__filename),
+  route: fileroute(__filename),
   view: index,
   addInitialProps() {
     return {
